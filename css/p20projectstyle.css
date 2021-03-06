@@ -1,0 +1,530 @@
+header{
+    margin:20px;
+    padding:20px;
+    width:1348px;
+    height:170px;
+    font-size: 17.6px; 
+}
+body{
+    background-color: white;
+}
+.wrap{
+    width:1213.19px;
+    height:170px;
+    margin:0px 67.4062px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color:rgb(255, 255, 255);
+    display: inline-block;
+    list-style-type: none;  
+}
+.logo{
+    width:177px;
+    height: 47px;
+    position:absolute;
+   display: inline-block; 
+}
+.headermenu{
+    display:inline-block;
+    text-decoration: none;
+    margin: 10px;
+    background-color: rgb(255, 255, 255); 
+    list-style-type: none;
+    position:absolute;
+    left:30%;
+
+}
+.headermenu li{
+    display: inline-block;
+    
+}
+.menu{
+    padding:40px 15px;
+    margin:13px 10px;
+    display:inline-block; 
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+}
+.menu:hover{
+    background-color: orange;
+}
+.blog{
+    padding:0px 50px 0px 0px;
+}
+.blogtitle{
+    position: absolute;
+    top: 27%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    font-size: 32px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: yellow;
+    padding:10px 60px 10px 20px;
+    background-color: black;
+    }
+#container{
+display: flex;
+max-width: 1900px;
+margin:30px;
+margin-right: 20px;
+box-sizing: border-box;
+max-height: 2380px;
+flex-direction: row;
+}
+.containerlayout{
+    display: flex;
+}
+.column1l{
+    flex:3;
+    background-color: white;
+    margin-right: 40px;
+    
+}
+
+.column3l{
+    flex:1;
+    background-color:white;
+}
+.leftslider{
+    padding: 0px 0px 20px;
+    background-color: yellow;
+    text-align: right;
+}
+.first{
+padding:10px 30px 0;
+font-size:22.4px;
+background-color: yellow;
+font-style: italic;
+}
+.writer{
+padding:0px 10px 5px;
+font-size:15.2px;
+background-color:yellow;
+
+}
+.leftslider2{
+background-color: yellow;
+padding-bottom: 20px;
+width: 80%;
+}
+.second{
+font-size: 25.6px;
+margin-bottom: 0px;
+padding: 20px;
+}
+.second2{
+font-size: 15.2px;
+padding: 20px;
+}
+.figure{
+    background-color: yellow;
+}
+.writer{
+    float:right;
+}
+.comment{
+    padding: 20px 0 0 20px;
+}
+.searchbar{
+    margin: 0 0 30px;
+    padding: 30px;
+    background-color: #414544;
+}
+.search{
+    padding: 2px 16px;
+    border-radius: 20px;
+    width: 80%;
+    height: 30px;
+}
+.searchicon{
+    position: relative;
+right: 40px;
+top: 9px;
+}
+.categories{
+    margin: 0 0 30px;
+    padding: 30px;
+    background-color: #414544;
+}
+.categoriesh4{
+    font-size: 22.4px;
+    margin: 0 0 30px;
+    color: yellow;
+}
+.categories-columns{
+    column-count: 2;
+}
+.smalltitles{
+    margin:  7px 10px 7px 7px;
+    position: absolute;
+    text-decoration: 0;
+    color: white;
+    font-size:14.24px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.arrow{
+    margin: 0 20px 0 0px;
+    margin-bottom: 5px;
+}
+.archive{
+    margin: 0 0 30px;
+    padding: 30px;
+    background-color: #414544;
+}
+.archiveh4{
+    font-size: 22.4px;
+    margin: 0 0 30px;
+    color: yellow;
+}
+.archive-columns{
+    column-count: 2;
+}
+.smallcolumnspp img{
+    width: 100px;
+    height: 70px;
+    margin: 0 20px 0 0;
+    display: inline-block;
+}
+.popularposts{
+    margin: 0 0 30px;
+    padding: 30px;
+    background-color: #414544;
+}
+.popularpostsh4{
+    font-size: 22.4px;
+    margin: 0 0 30px;
+    color: yellow;
+}
+.smallcolumnspp{
+   
+    margin: 0 0 20px;
+}
+.smallcolumnspp a{
+    position: absolute;
+    text-decoration: 0;
+    color: white;
+}
+.heart2{
+    width: 22px;
+    height: 19px;
+}
+.tags{
+    margin: 0 0 30px;
+    padding: 30px;
+    background-color: #414544;
+}
+.tagscolumns{
+    font-size: 22.4px;
+    margin: 0 0 30px;
+    color: yellow;
+}
+.tagscolumns a{
+    text-decoration: 0;
+    color:black;
+    padding: 5px;
+    background-color: yellow;
+    margin: 2px;
+}
+.balletgirl1{
+    width: 1080px;
+    height: 594px;
+}
+.paragraph1{
+    padding: 30px 0;
+    text-align: justify;
+}
+.columnshare1{
+    display: inline-block;
+}
+.columnshare2{
+    display: inline-block;
+    align-items: right;
+    text-align: right;
+    position: relative;
+    left:600px;
+}
+.sharethispost{
+    padding: 5px 10px;
+    color: yellow;
+    background-color: black;
+    display: inline-block;
+    font-size: 22.4px;
+    position:center;
+}
+.iconkecil{
+    display: inline-block;
+}
+.textkecil{
+    display: inline-block;
+    background-color: yellow;
+    padding: 6px 10px;
+    font-size: 16px;
+    position: relative;
+    bottom: 10px;
+    right: 4px;
+}
+.relatedpostscolumn{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+.rpc1 img{
+    width: 360px;
+    height: 260px;
+    margin-bottom: 0;
+}
+.relatedpostscolumn figcaption{
+    padding: 20px;
+    background-color: yellow;
+    font-size: 22.4px;
+}
+.sixcomments{
+    padding: 5px 10px;
+    color: yellow;
+    background-color: black;
+    display: inline-block;
+    font-size: 22.4px;
+    position:center;
+}
+.paragraphboxdalem{
+    
+}
+.profile{
+    display: inline-block;
+    position: absolute;
+}
+.titlepbox{
+    display: inline-block;
+   position:relative;
+   left:60px;
+}
+.paragraphboxdalem p{
+    display: inline-block;
+    position: relative;
+    left:60px;
+}
+.paragraphboxdalem a{
+    text-decoration: 0;
+    color: rgb(255, 208, 0);
+}
+.paragraphboxdalem4{
+position: relative;
+left:60px;
+}
+.paragraphboxdalem4 p{
+    display: inline-block;
+    position: relative;
+    left:60px;
+}
+.paragraphboxdalem4 a{
+    text-decoration: 0;
+    color: rgb(255, 208, 0);
+}
+.paragraphboxdalem5{
+    position: relative;
+    left:120px;
+}
+.paragraphboxdalem5 p{
+    display: inline-block;
+    position: relative;
+    left:60px;
+}
+.paragraphboxdalem5 a{
+    text-decoration: 0;
+    color: rgb(255, 208, 0);
+}
+.contact{
+    padding: 50px 0px 30px;
+}
+input{
+    display: inline-block;
+    margin: 10px 0px 10px 10px;
+    padding: 10px;
+}
+.column2{
+    display: inline-block;
+}
+.column1f{
+flex: 1;
+margin:10px 0px 10px 10px;
+padding: 10px;
+width: 60%;
+margin-right: 100px;
+}
+.column2f{
+flex: 1;
+margin:10px 0px 10px 10px;
+padding: 10px;
+margin-right: 100px;
+}
+.column3f{
+flex: 1;
+margin:10px 0px 10px 10px;
+padding: 10px;
+margin-right: 100px;
+}
+.holder{
+    display: flex;
+    padding: 20px;
+}
+.textarea{
+margin: 20px;
+}
+.send{
+margin: 0px 0px 20px;
+padding: 5px 20px;
+font-size: 22.4px;
+display: inline-block;
+background-color: black;
+color: yellow;
+}
+.footer{
+    display: block;
+    width: 100%;
+    margin: auto;
+    height:500px;
+    column-count: 3;
+    background-color: #414146;
+    padding:26px;
+    color: white;
+    column-gap: 5mm;
+}
+.tw1{
+display: inline-block;
+padding: 0px 0px 20px;
+margin-top:10px;
+}
+.tw2{
+    display: inline-block;
+    padding: 0px 0px 20px;
+}
+.tw3{
+    display: inline-block;
+    padding: 0px 0px 20px; 
+}
+.tw4{
+    display: inline-block;
+    padding: 0px 0px 20px;
+}
+.tw5{
+    display: inline-block;
+    padding: 0px 0px 20px;
+}
+.tw1 img{
+    margin: 0px 20px 0px 0px;
+}
+.tw2 img{
+    margin: 0px 20px 0px 0px;
+}
+.tw3 img{
+    margin: 0px 20px 0px 0px;
+}
+.tw4 img{
+    margin: 0px 20px 0px 0px;
+}
+.tw5 img{
+    margin: 0px 20px 0px 0px;
+}       
+.locationpicture{
+margin: 0px 20px 0px 0px;
+display: inline-block;
+}
+
+.whatsapp img{
+margin: 0px 20px 0px 0px;
+display: inline-block;
+}
+.mail img{
+margin: 0px 20px 0px 0px;
+display: inline-block;
+}
+.locationcaption{
+    display: inline-block;
+    padding: 0px 0px 20px;
+    text-align: justify;
+}
+.whatsapp{
+    display: inline-block;
+    padding: 0px 20px 0px 0px;  
+}
+.mail{
+  
+    padding: 0px 0px 20px;
+}
+.contactinfo{
+    display: inline-block;
+}
+.footer2{
+    padding:27px 0px;
+    width:100%;
+    height:97px;
+    background-color: black;
+    display: inline-block;
+}
+.wrapfooter2{
+    width:100%;
+    height:auto;
+    margin:0px 67.4062px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color:black;
+    display: inline-block;
+    list-style-type: none;  
+}
+.copyright{
+    padding: 7px 0px 0px;
+    font-size: 14.24px;
+    display: inline-block;
+    color: white;
+}
+.footermenu2head{
+    display:inline-block;
+    text-decoration: none;
+    margin: 10px;
+    background-color: rgb(0, 0, 0); 
+    list-style-type: none;
+}
+.footermenu2head li{
+    display: inline-block;
+}
+.menu2{
+    margin:13px 10px;
+    display:inline-block; 
+    text-decoration: none;
+    color: white;   
+}
+.footermenu2head li:hover{
+color: rgba(245, 245, 245, 0.431);
+}
+.social h4{
+margin: 0px 0px 15px;
+font-size: 22.4px;
+}
+.column1footer h2{
+    margin:0px 0px 30px;
+}
+.learnmore{
+    background-color: black;
+    color:yellow;
+    padding: 8px 20px;
+}
+.learnmore:hover{
+    background-color:grey;
+}
+.social img{
+    margin-top: 0;
+}
+.followus{
+    display: inline-block;
+}
+.social{
+    margin-top: 0px;
+}
+.line2{
+    margin-left: 55px;
+}
+.yellowtext{
+    color: yellow;
+}
+
+.leftslider2{
+    visibility: hidden;
+}

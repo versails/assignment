@@ -1,0 +1,117 @@
+.header{
+    background:rgb(255, 255, 255);
+}
+.logo{
+    padding: 20px;
+    width:400px;
+    height:100px;
+    display:inline-block;
+}
+.headermenu{
+    display:inline-block;
+    text-decoration: none;
+    margin: 10px;
+    background-color: rgb(255, 255, 255); 
+    list-style-type: none;
+    position: absolute;
+   
+}
+.headermenu li{   
+  display:inline-block;
+  
+}
+
+.menu {
+    display: inline-block;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.menu:hover{
+    background-color: beige;
+}
+.portfoliotitle{
+position: absolute;
+top: 25%;
+left: 20%;
+transform: translate(-50%, -50%);
+font-size: 35px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+color: yellow;
+margin:10px;
+padding:15px;
+background-color: black;
+}
+.wecreativetitle{
+    margin-top: 50px;
+    text-align:center;
+    background-color:rgba(255, 255, 255, 0.89);
+    margin-bottom: 0%;
+    padding: 20px;
+    font-size: 50px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.webdesign{
+  text-align: center;
+  font-size: 36px;
+  margin-top: 0;
+}
+.menuset{
+    position:absolute;
+    text-decoration: none;
+    background-color: rgb(255, 255, 255); 
+    list-style-type: none;
+    display: inline-block;
+    font-size: 20px;
+   width:100%;
+}
+.menuset li{
+    display: inline-block;
+}
+.menu2{   
+  display:inline-block;
+  padding:10px;
+}
+.menu2:hover{
+    background-color: beige;
+}
+.grid-container1 {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color:rgba(253, 183, 70, 0.89);
+    padding: 10px;
+}
+.grid-item1 {
+    padding: 20px;
+    text-align: center;
+    position: center;
+}
+.menubelow{
+    margin:auto;
+    padding:20px;
+    background-color:grey;
+    column-count: 3;
+    column-gap:1cm;
+
+  }
+  footer{
+    display:block; 
+    background:rgb(255, 145, 0);
+    column-count: 2;
+    padding:20px;
+    text-decoration: none;
+    font-size: 20px;
+  
+  }
+  .copyright{
+    display:inline-block;
+  }
+  .footermenu li {
+    display: inline-block;
+    font-size: 20px;
+    padding: 10px;
+    text-align:right;
+  }
+  .latesttweets img{
+    display:inline-block;
+  }

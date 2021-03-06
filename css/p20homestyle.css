@@ -1,0 +1,412 @@
+header{
+    margin:20px;
+    padding:20px;
+    width:100%;
+    height:170px;
+    font-size: 17.6px; 
+}
+.wrap{
+    width:100%;
+    height:170px;
+    margin:0px 67.4062px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color:rgb(255, 255, 255);
+    display: inline-block;
+    list-style-type: none;  
+}
+.logo{
+    width:177px;
+    height: 47px;
+    position:absolute;
+   display: inline-block; 
+}
+.headermenu{
+    display:inline-block;
+    text-decoration: none;
+    margin: 10px;
+    background-color: rgb(255, 255, 255); 
+    list-style-type: none;
+    position:absolute;
+    left:30%;
+}
+.headermenu li{
+    display: inline-block; 
+}
+.menu{
+    padding:40px 15px;
+    margin:13px 10px;
+    display:inline-block; 
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+}
+.menu:hover{
+    color: beige;
+}
+.centerleft {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.centerright {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.rightarrow{
+    position: absolute;
+    top: 60%;
+    right: -20px;
+    transform: translate(-50%, -50%);
+}
+
+.leftarrow{
+    position: absolute;
+    top: 53%;
+    left: 0px;
+    transform: translate(-50%, -50%);
+    transform: scaleX(-1);
+}
+.awal{
+    position:absolute;
+    z-index:-1;
+}
+.container{
+    position:absolute;
+    
+}
+.carousel1{
+    display: inline-block;
+    column-count: 2;
+}
+.carousel2{
+    display: inline-block;
+    column-count: 2;
+    display: none;
+}
+.h3c1{
+    background-color: yellow;
+    margin:0px 0px 10px;
+    font-size: 64px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   
+}
+.h2title{
+    background-color: grey;
+    color:white;
+    margin:0px 0px 1px;
+    padding:0px 10px;
+    font-size: 27.2px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   
+}
+.awalgambarkiri{
+    
+}
+.creative{
+    padding: 80px;
+}
+.wecreativetitle{
+    margin-top: 20px;
+    text-align:center;
+    background-color:rgba(255, 255, 255, 0.89);
+    margin-bottom: 0%;
+    padding: 20px;
+    font-size: 50px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.webdesign{
+  text-align: center;
+  font-size: 36px;
+  margin-top: 0;
+} 
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    background-color:rgba(255, 255, 255, 0.89);
+    padding: 50px;
+    justify-items: center;
+    text-align: justify;
+}
+.ourwork{
+    padding: 0 0 50px;
+    display: block;
+    width: 1670px;
+    height: 925px;
+}
+.grid-item {
+    position: center;
+    letter-spacing: 3mm;
+    background-color:yellow;
+}
+figure {
+    padding: 20px;
+    margin: auto;
+}
+figcaption{
+  background-color: rgba(65, 62, 62, 0.863);
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+.clienttitle{
+text-align: center;
+margin:auto;
+padding: 5px 40px;
+font-size: 24px;
+background-color:rgba(65, 62, 62, 0.863);
+color: yellow;
+width: 200px;
+}
+.clientsubtitle{
+    display: block;
+    text-align:center;
+    background-color:rgba(255, 255, 255, 0.89);
+    padding: 13px 0px 40px;
+    font-size: 22.4px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 20px;
+    margin:auto;
+}
+.clienticons{
+    display:block;
+    margin: auto;
+}
+.webdesign2{
+    text-align: center;
+    padding: 17px 0px;
+}
+.footer{
+    display: block;
+    width: 100%;
+    margin: auto;
+    height:500px;
+    column-count: 3;
+    background-color: #414146;
+    padding:26px;
+    color: white;
+    column-gap: 5mm;
+}
+.tw1{
+display: inline-block;
+padding: 0px 0px 20px;
+margin-top:10px;
+}
+.tw2{
+    display: inline-block;
+    padding: 0px 0px 20px;
+}
+.tw3{
+    display: inline-block;
+    padding: 0px 0px 20px; 
+}
+.tw4{
+    display: inline-block;
+    padding: 0px 0px 20px;
+}
+.tw5{
+    display: inline-block;
+    padding: 0px 0px 20px;
+}
+.tw1 img{
+    margin: 0px 20px 0px 0px;
+}
+.tw2 img{
+    margin: 0px 20px 0px 0px;
+}
+.tw3 img{
+    margin: 0px 20px 0px 0px;
+}
+.tw4 img{
+    margin: 0px 20px 0px 0px;
+}
+.tw5 img{
+    margin: 0px 20px 0px 0px;
+}       
+.locationpicture{
+margin: 0px 20px 0px 0px;
+display: inline-block;
+}
+
+.whatsapp img{
+margin: 0px 20px 0px 0px;
+display: inline-block;
+}
+.mail img{
+margin: 0px 20px 0px 0px;
+display: inline-block;
+}
+.locationcaption{
+    display: inline-block;
+    padding: 0px 0px 20px;
+    text-align: justify;
+}
+.whatsapp{
+    display: inline-block;
+    padding: 0px 20px 0px 0px;  
+}
+.mail{
+  
+    padding: 0px 0px 20px;
+}
+.contactinfo{
+    display: inline-block;
+}
+.footer2{
+    padding:27px 0px;
+    width:100%;
+    height:97px;
+    background-color: black;
+    display: inline-block;
+}
+.wrapfooter2{
+    width:100%;
+    height:auto;
+    margin:0px 67.4062px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color:black;
+    display: inline-block;
+    list-style-type: none;  
+}
+.copyright{
+    padding: 7px 0px 0px;
+    font-size: 14.24px;
+    display: inline-block;
+    color: white;
+}
+.footermenu2head{
+    display:inline-block;
+    text-decoration: none;
+    margin: 10px;
+    background-color: rgb(0, 0, 0); 
+    list-style-type: none;
+}
+.footermenu2head li{
+    display: inline-block;
+}
+.menu2{
+    margin:13px 10px;
+    display:inline-block; 
+    text-decoration: none;
+    color: white;   
+}
+.footermenu2head li:hover{
+color: rgba(245, 245, 245, 0.431);
+}
+.social h4{
+margin: 0px 0px 15px;
+font-size: 22.4px;
+}
+.column1footer h2{
+    margin:0px 0px 30px;
+}
+.learnmore{
+    background-color: black;
+    color:yellow;
+    padding: 8px 20px;
+}
+.learnmore:hover{
+    background-color:grey;
+}
+.social img{
+    margin-top: 0;
+}
+.followus{
+    display: inline-block;
+}
+.social{
+    margin-top: 0px;
+}
+.line2{
+    margin-left: 55px;
+}
+.yellowtext{
+    color: yellow;
+}
+.bg-modal{
+    width: 100%;
+    height:100%;
+    background-color:rgba(0,0,0,0.7);
+    position: absolute;
+    top:0;
+   
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  display:none;
+ 
+}
+.modal-content{
+    width: 400px;
+    height: 400px;
+    background-color:white ;
+  border-radius:4px;
+  text-align:center;
+  padding:20px;
+  position:relative;
+ 
+}
+table{
+  border-collapse:collapse;
+  text-align:center;
+  margin:0 auto;
+  
+}
+table th{
+  text-align:center;
+  background-color:yellow;
+border: 1px solid lightgrey;
+}
+table td{
+  border: 1px solid lightgrey;
+  padding:4px 8px;
+}
+.close{
+  position:absolute;
+  top:0;
+  right:14px;
+  font-size:20px;
+  transform:rotate(45deg);
+  cursor:pointer;
+}
+span {
+  content: "\2713";
+  content:"&#10007";
+}
+.gridpics{
+    display: flex;
+    font-size: 10px;
+    margin: auto;
+}
+.gridpics img{
+    max-width: 200px;
+}
+.column1{
+flex: 1;
+}
+.column2{
+    flex: 1;
+}
+.column3{
+    flex: 1;
+}
+.column4{
+    flex: 1;
+}
+.column5{
+    flex: 1;
+}
+.column6{
+    flex: 1;
+}
+.column7{
+    flex: 1;
+}
+.column8{
+    flex: 1;
+}
+.column9{
+    flex: 1;
+}

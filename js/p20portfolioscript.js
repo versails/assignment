@@ -1,0 +1,37 @@
+const button1 = document.getElementById("button1");
+const button2 = document.getElementById("button2");
+const button3 = document.getElementById("button3");
+const button4 = document.getElementById("button4");
+const button5 = document.getElementById("button5");
+const button6 = document.getElementById("button6");
+const grid1 = document.getElementById("grid1");
+const grid2 = document.getElementById("grid2");
+const grid3 = document.getElementById("grid3");
+const grid4 = document.getElementById("grid4");
+const grid5 = document.getElementById("grid5");
+const grid6 = document.getElementById("grid6");
+const grid7 = document.getElementById("grid7");
+const grid8 = document.getElementById("grid8");
+const grid9 = document.getElementById("grid9");
+button1.onclick = function(){
+  grid1.style.display = "block";
+  grid2.style.display = "block";
+  grid3.style.display = "block";
+  grid4.style.display = "block";
+  grid5.style.display = "block";
+  grid6.style.display = "block";
+  grid7.style.display = "block";
+  grid8.style.display = "block";
+  grid9.style.display = "block";
+}
+button2.onclick = function(){
+  grid1.style.display = "none";
+  grid2.style.display = "block";
+  grid3.style.display = "none";
+  grid4.style.display = "none";
+  grid5.style.display = "block";
+  grid6.style.display = "none";
+  grid7.style.display = "none";
+  grid8.style.display = "none";
+  grid9.style.display = "block";
+}

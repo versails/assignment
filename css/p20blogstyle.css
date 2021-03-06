@@ -1,0 +1,228 @@
+header{
+    margin:20px;
+    padding:20px;
+    width:1348px;
+    height:170px;
+    font-size: 17.6px; 
+}
+body{
+    background-color: white;
+}
+.wrap{
+    width:1213.19px;
+    height:170px;
+    margin:0px 67.4062px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color:rgb(255, 255, 255);
+    display: inline-block;
+    list-style-type: none;  
+}
+.logo{
+    width:177px;
+    height: 47px;
+    position:absolute;
+   display: inline-block; 
+}
+.headermenu{
+    display:inline-block;
+    text-decoration: none;
+    margin: 10px;
+    background-color: rgb(255, 255, 255); 
+    list-style-type: none;
+    position:absolute;
+    left:30%;
+
+}
+.headermenu li{
+    display: inline-block;
+    
+}
+.menu{
+    padding:40px 15px;
+    margin:13px 10px;
+    display:inline-block; 
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+}
+.menu:hover{
+    background-color: orange;
+}
+.blog{
+    padding:0px 50px 0px 0px;
+}
+.blogtitle{
+    position: absolute;
+    top: 27%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    font-size: 32px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: yellow;
+    padding:10px 60px 10px 20px;
+    background-color: black;
+    }
+#container{
+display: flex;
+max-width: 1900px;
+margin:30px;
+margin-right: 20px;
+box-sizing: border-box;
+max-height: 2380px;
+flex-direction: row;
+}
+.containerlayout{
+    display: flex;
+}
+.column1l{
+    flex:1;
+    background-color: white;
+    margin-right: 40px;
+}
+.column2l{
+    flex:1;
+    background-color:white;
+    margin-right: 40px;
+}
+.column3l{
+    flex:1;
+    background-color:white;
+}
+.leftslider{
+    padding: 0px 0px 20px;
+    background-color: yellow;
+    text-align: right;
+}
+.first{
+padding:10px 30px 0;
+font-size:22.4px;
+background-color: yellow;
+font-style: italic;
+}
+.writer{
+padding:0px 10px 5px;
+font-size:15.2px;
+background-color:yellow;
+
+}
+.leftslider2{
+background-color: yellow;
+padding-bottom: 20px;
+}
+.second{
+font-size: 25.6px;
+margin-bottom: 0px;
+}
+.second2{
+font-size: 15.2px;
+padding: 10px 0 0;
+}
+.figure{
+    background-color: yellow;
+}
+.writer{
+    float:right;
+}
+.comment{
+    padding: 20px 0 0 20px;
+}
+.searchbar{
+    margin: 0 0 30px;
+    padding: 30px;
+    background-color: #414544;
+}
+.search{
+    padding: 2px 16px;
+    border-radius: 20px;
+    width: 80%;
+    height: 30px;
+}
+.searchicon{
+    position: relative;
+right: 40px;
+top: 9px;
+}
+.categories{
+    margin: 0 0 30px;
+    padding: 30px;
+    background-color: #414544;
+}
+.categoriesh4{
+    font-size: 22.4px;
+    margin: 0 0 30px;
+    color: yellow;
+}
+.categories-columns{
+    column-count: 2;
+}
+.smalltitles{
+    margin:  7px 10px 7px 7px;
+    position: absolute;
+    text-decoration: 0;
+    color: white;
+    font-size:14.24px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.arrow{
+    margin: 0 20px 0 0px;
+    margin-bottom: 5px;
+}
+.archive{
+    margin: 0 0 30px;
+    padding: 30px;
+    background-color: #414544;
+}
+.archiveh4{
+    font-size: 22.4px;
+    margin: 0 0 30px;
+    color: yellow;
+}
+.archive-columns{
+    column-count: 2;
+}
+.smallcolumnspp img{
+    width: 100px;
+    height: 70px;
+    margin: 0 20px 0 0;
+    display: inline-block;
+}
+.popularposts{
+    margin: 0 0 30px;
+    padding: 30px;
+    background-color: #414544;
+}
+.popularpostsh4{
+    font-size: 22.4px;
+    margin: 0 0 30px;
+    color: yellow;
+}
+.smallcolumnspp{
+   
+    margin: 0 0 20px;
+}
+.smallcolumnspp a{
+    position: absolute;
+    text-decoration: 0;
+    color: white;
+}
+.heart2{
+    width: 22px;
+    height: 19px;
+}
+.tags{
+    margin: 0 0 30px;
+    padding: 30px;
+    background-color: #414544;
+}
+.tagscolumns{
+    font-size: 22.4px;
+    margin: 0 0 30px;
+    color: yellow;
+}
+.tagscolumns a{
+    text-decoration: 0;
+    color:black;
+    padding: 5px;
+    background-color: yellow;
+    margin: 2px;
+}
